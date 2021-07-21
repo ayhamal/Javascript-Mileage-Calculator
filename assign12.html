@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mileage Calculator</title>
+
+    <!-- Tailwind css framework -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="py-12 bg-white"> 
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- This example requires Tailwind CSS v2.0+ -->
+        <main>
+            <div class="text-center">
+                <h3 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Assign 12</h3>
+
+                <h1 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Mileage Calculator</h1>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">Please introduce your starting point and destination point below.</p>
+            </div>
+            <div class="text-center pt-5">
+                <input class="text-center py-2 px-3 rounded-lg border-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" type="text" name="startCity" placeholder="Start City">
+                <input class="text-center py-2 px-3 rounded-lg border-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" type="text" name="startState" placeholder="Start State">
+                <input class="text-center py-2 px-3 rounded-lg border-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" type="text" name="endCity" placeholder="End City">
+                <input class="text-center py-2 px-3 rounded-lg border-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" type="text" name="endState" placeholder="End State">
+            </div>
+            <div class="text-center">
+                <button class=" mt-8 mb-5 px-4 py-2 font-medium w-auto bg-blue-500 hover:bg-blue-700 rounded-lg shadow-xl border-1 text-white id="calculate-btn">Calculate</button>
+                
+            </div>
+            <div class="text-center">
+                <textarea name="results" id="results" cols="100" rows="10" disabled  class="py-2 px-3 rounded-lg border-2 border-blue-300 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" placeholder="Please select your start and end destination first"></textarea>
+            </div>
+        </main>
+
+
+        </div>
+    </div>     
+    <footer class="bg-gray-200 mt-10">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <p class="py-2 text-gray-500 sm:py-0">Zaida's Homework ©</p>
+        </div>
+    </footer>
+
+</body>
+</html>
